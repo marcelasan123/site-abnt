@@ -141,6 +141,7 @@ a {
     font-size: clamp(1.5rem, 4vw, 2.5rem);
     margin: 1rem 0;
     font-weight: 700;
+    margin-right:
 }
 
 .about-text p {
@@ -236,34 +237,39 @@ a {
     transition: 0.3s ease;
 }
 
-/* Efeito hover */
-.about-card:hover {
-    transform: translateY(-6px);
-    border-color: #2563eb; /* azul */
+
+/* Container principal */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-/* Títulos dos cards */
-.about-card h3 {
-    color: #ffffff;
-    font-size: 20px;
-    margin-bottom: 12px;
-    font-weight: bold;
-}
-
-/* Texto interno */
-.about-card p, 
-.about-card li {
-    color: #cbd5e1; /* cinza claro */
-    font-size: 16px;
-    line-height: 1.5;
-    list-style: none;
+.box {
+    width: 300px;
+    background: #000000;
+    border-radius: 12px;
+    text-align: center;
+    padding: 15px;
 }
 
 
-/* Ícone opcional */
-.about-card i {
-    font-size: 26px;
-    color: #3b82f6; /* azul do exemplo */
-    margin-bottom: 12px;
-    display: block;
+/* Imagens */
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
+
+
+
+/* Título */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
