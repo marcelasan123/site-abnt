@@ -68,11 +68,9 @@ a {
     opacity: 0.8;
 }
 
-/* Hero */
 .hero {
     text-align: center;
-    padding: 4rem 1rem 13rem; /* rem - tamanha 'responsivel' igual o em */
-    position: relative;
+    padding: 4rem 1rem 13rem;
     overflow: hidden;
 }
 
@@ -112,7 +110,7 @@ a {
     pointer-events: none;
 }
 
-/* About */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -160,7 +158,6 @@ a {
     width: 350px;
 }
 
-/* Footer */
 .footer {
     background: #0d0d0d;
     text-align: center;
@@ -196,10 +193,6 @@ a {
     font-size: 0.8rem;
 }
 
-
-
-
-/* Container geral */
 .about.container1 {
     width: 100%;
     padding: 60px 20px;
@@ -210,7 +203,6 @@ a {
     background-color: #0d1117; /* Fundo escuro */
 }
 
-/* Título */
 .about-text1 h2 {
     font-size: 32px;
     color: #ffffff;
@@ -218,7 +210,6 @@ a {
     text-align: center;
 }
 
-/* Cards estilo "Nosso Propósito" */
 .about-cards {
     display: flex;
     gap: 25px;
@@ -226,9 +217,9 @@ a {
     justify-content: center;
 }
 
-/* Cada card */
+
 .about-card {
-    background-color: #111827; /* Azul bem escuro */
+    background-color: #111827; 
     padding: 25px;
     width: 300px;
     border-radius: 14px;
@@ -238,7 +229,6 @@ a {
 }
 
 
-/* Container principal */
 .container {
     display: flex;
     justify-content: center;
@@ -256,7 +246,6 @@ a {
 }
 
 
-/* Imagens */
 .box img {
     width: 100%;
     height: auto;
@@ -265,7 +254,6 @@ a {
 
 
 
-/* Título */
 h2 {
     text-align: center;
     font-size: 2rem;
